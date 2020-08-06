@@ -1,0 +1,8 @@
+﻿body {
+     background-image: url('images.jpg');
+     color:#fff;
+     font-size:x-large;
+      background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}

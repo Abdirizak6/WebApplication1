@@ -1,0 +1,87 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Tusmo</title>
+    <link rel="icon" href="main/img/t.png" />
+    <link rel="stylesheet" href="main/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="main/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="main/css/styles.css">
+    <link rel="stylesheet" href="main/css/responsive.css">
+   
+    
+
+
+</head>
+<body>
+ 
+         <nav class="navbar navbar-light navbar-expand-md" id="mainnav" style="padding-top: 20px;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: #ff257c;font-size: 28px;"><strong>Tusmo</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto" style="padding-bottom: 0px; padding-top: 9px;">
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="home.aspx">HOME</a></li>
+                   <%-- <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="padding-top: 6.9px;">PAGES</a>--%>
+                        <div class="dropdown-menu" role="menu">
+                            <%--<a class="dropdown-item" role="presentation" href="courses.aspx">COURSES</a>
+                            <a class="dropdown-item" role="presentation" href="about.aspx">ABOUT US</a>--%>
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.aspx" style="padding-top: 4.9px;">ABOUT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="courses.aspx" style="padding-top: 4.9px;">COURSES</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.aspx" style="padding-top: 4.9px;">CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation">
+                <h3><a href="#"><span>Tusmo</span></a></h3>
+                <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Courses</a><strong> · </strong><a href="#">About Us</a><strong> · </strong><a href="#">Contact Us</a><strong>  </strong><a href="#"></a><strong>  </strong><a href="#"></a></p>
+                <p class="company-name">Tusmo <span style="color:#FF2276">©</span>  2020 </p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div style="color:#FF2276"><span class="fa fa-map-marker footer-contacts-icon"> <span style="color:#ffffff">&nbsp;&nbsp;&nbsp; zoobe-km5, Mogdishu, Somalia</span> </span>
+                </div>
+                <div style="color:#FF2276"><i class="fa fa-phone footer-contacts-icon"><span style="color:#ffffff">&nbsp;&nbsp;&nbsp;+ 252 612333603</span></i>
+                </div>
+                <div style="color:#FF2276"><i class="fa fa-envelope footer-contacts-icon"><span style="color:#ffffff">&nbsp;&nbsp;&nbsp;Tusmo@Academy.com</span></i>
+                
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 footer-about">
+                <h4>About the <span style="color:#FF2276">Tusmo</span> </h4>
+                <p> We provide high education and certification. <br /> Join with us to know more.</p>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook" style="padding-right: 20px;color:#FF2276;"></i></a><a href="#"><i class="fa fa-twitter" style="padding-right: 20px; color:#FF2276;"></i></a><a href="#"><i class="fa fa-instagram" style="padding-right: 20px; color:#FF2276;"></i></a></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main/bootstrap/js/bootstrap.min.js"></script>
+    <script src="main/js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var url = window.location;
+            $('.navbar .nav').find('.active').removeClass('active');
+            $('.navbar .nav li a').each(function () {
+                if (this.href == url) {
+                    $(this).parent().addClass('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\bin\WebApplication1.xml
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Resources.resources
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\obj\Debug\Tusmo academy.vbproj.GenerateResource.Cache
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\obj\Debug\WebApplication1.xml
+C:\Users\hp\Desktop\my journey\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

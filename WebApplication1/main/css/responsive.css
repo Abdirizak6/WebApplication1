@@ -1,0 +1,559 @@
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+
+@media only screen and (max-width: 1380px)
+{
+
+}
+
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+
+
+@media only screen and (max-width: 1199px)
+{
+	
+}
+
+
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+
+@media only screen and (max-width: 1024px)
+{
+    h1.register-title{
+        font-size: 35px;
+    }
+    form#search_form {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    button#search_submit_button {
+        width: 460px
+    }
+
+
+}
+@media only screen and (max-width: 1000px)
+{
+	.well-img {
+		margin-left: -90px;
+	}
+}
+
+
+
+@media only screen and (max-width: 991px)
+{
+	.well-img {
+		margin-top: -100px;
+		margin-left: 20px;
+	}
+	.title h1 {
+		margin-top: 15rem;
+	}
+	#abt-1 .row {
+		display: block;
+	}
+	#abt-1 .card {
+		width: 33rem;
+	}
+	#abt-1 .item {
+		padding-top: 30px;
+	}
+	.search_section
+	{
+		padding-top: 156px;
+		padding-bottom: 161px;
+	}
+	.register_content,
+	.search_content
+	{
+		width: 75%;
+	}
+}
+
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+
+@media only screen and (max-width: 880px)
+{
+	#abt .row{
+		display: block;
+	}
+	.item.card-item {
+		margin-left: 100px;
+		padding-top: 20px;
+	}
+	.item.card-item .card {
+		width: 500px;
+	}
+	#well-container .img img {
+		width: 600px;
+		height: 450px;
+		margin-left: 40px;
+	}
+    .col-lg-6.img {
+        margin-top: -10px;
+    }
+    .container.courseHeading {
+        margin-top: 10rem;
+    }
+    .well-img img {
+        padding-left: 50px;
+    }
+    #abt-1 .row {
+        display: block;
+    }
+    #abt-1 .card {
+        width: 500px;
+    }
+    #abt-1 .item {
+        padding-top: 30px;
+        padding-left: 50px;
+	}
+	.img-search{
+		height: 500px;
+	}
+	
+}
+	
+}
+
+
+
+@media only screen and (max-width: 768px)
+{
+	#abt .row{
+		display: block;
+	}
+	.item.card-item {
+		margin-left: 100px;
+		padding-top: 20px;
+	}
+	.item.card-item .card {
+		width: 500px;
+	}
+    .col-lg-6.img {
+        margin-top: -100px;
+    }
+    .container.courseHeading {
+        margin-top: 15rem;
+    }
+    .well-img img {
+        padding-left: 50px;
+    }
+    #abt-1 .row {
+        display: block;
+    }
+    #abt-1 .card {
+        width: 500px;
+    }
+    #abt-1 .item {
+        padding-top: 30px;
+        padding-left: 50px;
+	}
+	.img-search{
+		height: 500px;
+	}
+	
+}
+@media only screen and (max-width: 767px)
+{
+	.item.card-item {
+		margin-left: 0px;
+		padding-top: 20px;
+	}
+    .col-lg-6.img {
+		margin-top: -10px;
+		margin-left: -110px;
+    }
+    .container.courseHeading {
+        margin-top: 15rem;
+    }
+    .well-img img {
+        padding-left: 50px;
+    }
+    #abt-1 .item {
+        padding-top: 30px;
+        margin-left: -80px;
+	}
+	h1.head-services {
+		padding-right: 115px;
+	}
+	p.count-p {
+		font-size: 25px;
+	}
+
+	
+}
+@media only screen and (max-width: 640px)
+{
+	#abt .row{
+		display: block;
+	}
+	.item.card-item {
+		margin-left: 60px;
+		padding-top: 20px;
+	}
+	.item.card-item .card {
+		width: 400px;
+	}
+    .col-lg-6.img {
+        margin-top: -10px;
+    }
+    .container.courseHeading {
+        margin-top: 15rem;
+	}
+	.col-lg-6.img {
+		margin-left: -100px;
+	}
+	.courseHeading .title {
+		padding-top: 150px;
+	}
+    #abt-1 .row {
+        display: block;
+    }
+	#abt-1 .item {
+		padding-top: 30px;
+		padding-left: 90px;
+	}
+	#abt-1 .card{
+		width: 400px;
+	}
+	.img-search{
+		height: 500px;
+	}
+	h1.head-services {
+		padding-right: 115px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	.item.card-item {
+		margin-left: 60px;
+		padding-top: 20px;
+	}
+	.item.card-item .card {
+		width: 400px;
+	}
+	.col-lg-6.img {
+		margin-left: -100px;
+	}
+	.courseHeading .title {
+		padding-top: 0px;
+	}
+	#abt-1 .item {
+		padding-top: 30px;
+		padding-left: 90px;
+	}
+	#abt-1 .card{
+		width: 400px;
+	}
+	h1.head-services {
+		padding-right: 115px;
+	}
+	p.count-p {
+		font-size: 25px;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 575px)
+{
+
+	.register_section,
+	.search_section
+	{
+		padding-top: 115px;
+		padding-bottom: 120px;
+	}
+	.register_content,
+	.search_content
+	{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.register_text
+	{
+		margin-top: 25px;
+	}
+	.register_button
+	{
+		margin-top: 53px;
+	}
+}
+
+
+
+@media only screen and (max-width: 500px)
+{
+	#abt-1 .item {
+		padding-top: 30px;
+		padding-left: 80px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 480px)
+{
+	.item.card-item {
+		margin-left: 80px;
+		padding-top: 20px;
+	}
+	.item.card-item .card {
+		width: 300px;
+	}
+	.well-title h1.text-left {
+		font-size: 35px;
+	}
+	#well-container .img img {
+		width: 350px;
+		height: 350px;
+		margin-left: 10px;
+	}
+	.courseHeading .title {
+		padding-top: 100px;
+	}
+	#abt-1 .item {
+		padding-top: 10px;
+		padding-left: 0px;
+	}
+	#abt-1 .card{
+		width: 350px;
+	}
+	h1.head-services {
+		padding-right: 0px;
+	}
+	.testimonial-header{
+		margin-left: -35px;
+	}
+	
+	
+}
+
+
+
+
+
+
+@media only screen and (max-width: 414px){
+	.card-item {
+		padding-bottom: 30px;
+	}
+	#abt .item {
+		padding-top: 10px;
+		margin-left: 40px;
+	}
+	.well-title h1.text-left {
+		font-size: 35px;
+	}
+	#well-container .img img {
+		width: 350px;
+		height: 350px;
+		margin-left: 10px;
+	}
+	.courseHeading .title {
+		padding-top: 100px;
+	}
+	#abt-1 .item {
+		padding-top: 10px;
+		margin-left: -10px;
+	}
+	#abt-1 .card{
+		width: 300px;
+	}
+	h1.register-title {
+		font-size: 30px;
+	}
+	h1.search-title {
+		font-size: 35px;
+	}
+	.search-content.text-center {
+		width: 400px;
+	}
+	button#search_submit_button {
+		width: 335px;
+	}
+	h1.head-services {
+		padding-right: 0px;
+	}
+	.testimonial-header{
+		margin-left: -65px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 412px){
+	.item.card-item {
+		margin-left: 40px;
+	}
+	.col-lg-6.img {
+		margin-left: -30px;
+	}
+	h1.head-services {
+		padding-right: 0px;
+	}
+	.testimonial-header{
+		margin-left: -55px;
+	}
+	
+}
+@media only screen and (max-width: 412px){
+
+	.testimonial-header{
+		margin-left: -65px;
+	}
+	
+}
+@media only screen and (max-width: 375px){
+	.card-item {
+		padding-bottom: 30px;
+		padding-left: -10px;
+	}
+	#abt .item {
+		margin-left: 20px;
+	}
+	.well-title h1.text-left {
+		font-size: 35px;
+	}
+	#well-container .img img {
+		width: 300px;
+		height: 250px;
+		margin-left: 10px;
+	}
+	.courseHeading .title {
+		padding-top: 100px;
+	}
+	#abt-1 .item {
+		padding-top: 10px;
+		margin-left: -22px;
+	}
+	#abt-1 .card{
+		width: 300px;
+	}
+	h1.register-title {
+		font-size: 30px;
+	}
+	h1.search-title {
+		font-size: 35px;
+	}
+	.search-content.text-center {
+		width: 400px;
+	}
+	button#search_submit_button {
+		width: 335px;
+	}
+	.testimonial-header{
+		margin-left: -85px;
+	}
+}
+
+
+@media only screen and (max-width: 384px){
+	.item.card-item {
+		margin-left:-5px;
+	}
+	#abt .card-item .card {
+		width: 300px;
+	}
+	.card-item {
+		padding-bottom: 30px;
+	}
+	.well-title h1.text-left {
+		font-size: 35px;
+	}
+	#well-container .img img {
+		width: 435px;
+		height: 350px;
+		margin-left: -30px;
+	}
+	.courseHeading .title {
+		padding-top: 100px;
+	}
+	#abt-1 .item {
+		padding-top: 10px;
+		margin-left: -25px;
+	}
+	#abt-1 .card{
+		width: 300px;
+	}
+
+	.testimonial-header{
+		margin-left: -70px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.item.card-item {
+		margin-left:-5px;
+	}
+	#abt .card-item .card {
+		width: 250px;
+	}
+	.card-item {
+		padding-bottom: 30px;
+	}
+	.well-title h1.text-left {
+		font-size: 35px;
+	}
+	#well-container .img img {
+		width: 300px;
+		height: 250px;
+		margin-left: -30px;
+	}
+	.courseHeading .title {
+		padding-top: 100px;
+	}
+	#abt-1 .item {
+		padding-top: 10px;
+		margin-left: -25px;
+	}
+	#abt-1 .card{
+		width: 250px;
+	}
+	h1.register-title {
+		font-size: 25px;
+	}
+	h1.search-title {
+		font-size: 30px;
+	}
+	.search-content.text-center {
+		width: 350px;
+	}
+	button#search_submit_button {
+		width: 300px;
+	}
+	.testimonial-header{
+		margin-left: -115px;
+	}
+}
